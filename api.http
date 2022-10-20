@@ -1,0 +1,38 @@
+### Show Student
+GET http://localhost:8080/show
+
+### Create Student
+POST http://localhost:8080/create
+Content-Type: application/json
+
+{
+    "name": "tenyom",
+    "class_name": "B",
+    "major": "Science"
+}
+
+### Delete Student
+POST http://localhost:8080/delete
+Content-Type: application/json
+
+{
+    "name": "tenyom",
+    "class_name": "B",
+    "major": "Science"
+}
+
+
+### Update Student
+POST http://localhost:8080/update
+Content-Type: application/json
+
+{
+    "filter" : {
+        "name": "tenyom",
+        "class_name": "B",
+        "major": "Science"
+    },
+    "change": {
+        "name": "diwut"
+    }
+}
