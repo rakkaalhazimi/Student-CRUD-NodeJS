@@ -34,4 +34,44 @@ Rakka Alhazimi, October 2022
    ```
    npm run dev
    ```
-   
+
+# Examples
+Examples can be seen in `app.http` file. It consist of show, create, update and delete.
+
+# Documentation
+## ```\```
+## ```\show```
+- GET Request - show all student.
+
+<br>
+
+## ```\create```
+- POST Request - add student into database.  
+    **json params:**
+    - name: str
+    - class_name: str
+    - major: str
+
+<br>
+
+## ```\update```
+- POST Request - update student in database.  
+    **json params:**
+    - filter (any one):
+      - name: str
+      - class_name: str
+      - major: str
+
+    - change (any one):
+      - name: str
+      - class_name: str
+      - major: str
+  
+<br>
+
+## ```\delete```
+- POST Request - delete student in database.  
+    **json params (any one):**
+    - name: str
+    - class_name: str
+    - major: str
