@@ -10,11 +10,11 @@ Rakka Alhazimi, October 2022
 # Installation
 1. Clone this repository
     ```
-    git clone https://github.com/rakkaalhazimi/Quiz-Prototype-Website
+    git clone https://github.com/rakkaalhazimi/Student-CRUD-NodeJS
     ```
 2. Move to cloned directory
     ```
-    cd Quiz-Prototype-Website
+    cd Student-CRUD-NodeJS
     ```
 
 3. Install all required library
